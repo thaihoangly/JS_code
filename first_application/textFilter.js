@@ -34,3 +34,5 @@ ArrayTrueLength.forEach(function (p) {
     PContent.textContent = p.Task
     document.querySelector('body').appendChild(PContent)
 })
+
+// VSCode Git initial commit
