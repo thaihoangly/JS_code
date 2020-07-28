@@ -17,3 +17,10 @@
 
 # HTML content
     button, input
+
+    Targeting class/ID
+    tag.class#id
+    tag#id.class
+    (tag.class#id make the most sense)
+
+    INPUT Element

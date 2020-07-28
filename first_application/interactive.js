@@ -14,7 +14,11 @@ let MyArray = [{
 
 // Button that allow user to interact with program
 
-document.querySelector('button').addEventListener('click', function (e) {
+document.querySelector('#first-button').addEventListener('click', function (e) {
     console.log('yay it works')
-    console.log(e)
+    console.log(e.target)
+})
+
+document.querySelector('#search-text').addEventListener('input', function (e) {
+    console.log(e.target.value)
 })
